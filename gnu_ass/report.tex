@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\title{Report}
+\author{Kuldeep Kushwaha }
+
+\graphicspath{{/home/kuldip/Downloads/160349/}}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Step 3a}
+this is one point (scatter) graph for each thread configuration where X-axis is num-of-elements and Y-
+axis corresponds to execution time for each sample
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{step3a1.eps}
+\caption{No. of threads = 1}
+\label{fig:universe}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{step3a2.eps}
+\caption{No. of threads = 2}
+\label{fig:universe}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{step3a4.eps}
+\caption{No. of threads = 4}
+\label{fig:universe}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{step3a8.eps}
+\caption{No. of threads = 8}
+\label{fig:universe}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{step3a16.eps}
+\caption{No. of threads = 16}
+\label{fig:universe}
+\end{figure}
+
+\section{Step3b}
+this is a single line graph for each thread configuration where X-axis is <num-of-elements> and Y-axis is
+average execution time over 100 samples, (the line for each thread should be plotted in a single plot
+with proper legends for each thread)
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{step3b.eps}
+\caption{step 3b}
+\label{fig:universe}
+\end{figure}
+
+\section{Step3c}
+this is one bar graph with X-axis as <number of elements> and Y-axis as average speedup (as you have
+executed the same configuration for 100 times) w.r.t. one thread execution.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.1]{step3c.eps}
+\caption{Step 3c}
+\label{fig:universe}
+\end{figure}
+
+\section{Step3d}
+this is same graph as above but with error bars.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.1]{step3d.eps}
+\caption{step3d}
+\label{fig:universe}
+\end{figure}
+
+
+\end{document}
+
